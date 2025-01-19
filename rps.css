@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #201E50;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    margin-top: 40px;
+    padding: 50px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.msg-container{
+    text-align: center;
+}
+#msg{
+    margin-top: 45px;
+    font-size: xx-large;
+    background-color: #201E50;
+    color: white;
+    text-align: center;
+    display: inline;
+    padding : 10px;
+    border-radius: 5px;
+}
+
+.choice:hover {
+    border : 3px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.comp_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comp_choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.resetScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetBtn{
+    position : relative;
+    top: 40px;
+    height: 30px;
+    width: 120px;
+    background-color: #201E50;
+    font-size : 18px;
+    color: white;
+}
+
+#resetBtn:hover {
+    cursor: pointer;
+}
